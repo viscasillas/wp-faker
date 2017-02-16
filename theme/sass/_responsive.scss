@@ -1,0 +1,25 @@
+@media screen and (max-width: 768px) {
+  html,body{
+    margin:0px;
+    padding:0px;
+    overflow-x:hidden;
+  }
+  .header.container{
+    margin:0px;
+    padding:0px;
+  }
+  ul.navigation{
+    width: 100%;
+    li{
+      width: 100%;
+      &:hover,
+      &:focus{
+        background: #ddd;
+        color:#333;
+      }
+      a{
+        width: 100%;
+      }
+    }
+  }
+}

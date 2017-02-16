@@ -1,0 +1,30 @@
+/* navigation */
+ul.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    margin-top:50px;
+    li {
+        float: left;
+        /*align-items: center;*/
+        width: 16.5%;
+        a {
+            display: block;
+            color: #444;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 10px;
+            line-height: normal;
+            font-family: schindler, Georgia, "Times New Roman", Times, serif;
+            letter-spacing: 2px;
+        }
+        &:hover {
+            color: #000;
+            text-decoration: none;
+        }
+    }
+}
